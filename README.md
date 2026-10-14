@@ -24,7 +24,9 @@ Fontes públicas consultadas em 14/10/2026:
 - `docs/app.mjs`: eventos e armazenamento local.
 - `docs/styles.css`: layouts de computador/celular e movimento reduzido.
 - `docs/assets/hero.webp`: destaque ilustrativo, 1536 × 1024, otimizado para WebP.
-- `docs/assets/*.svg`: ilustrações vetoriais genéricas leves.
+- `docs/assets/*-photo.webp`: fotografias reais de produtos, otimizadas e usadas como referências por categoria.
+- `photo-sources.json`: páginas e URLs de origem das fotografias.
+- `docs/assets/favicon.svg`: identidade visual vetorial.
 
 Para atualizar os produtos, edite `PRODUCTS` em `docs/core.mjs`. O destinatário é `STORE.phone`; mantenha os links de contato do HTML em sincronia ao alterar o número.
 
@@ -36,7 +38,7 @@ node --check docs/app.mjs
 node --check docs/core.mjs
 ```
 
-O fluxo foi verificado por testes da lógica, revisão estática e validação dos arquivos. A integração abre uma mensagem pronta; não valida estoque, preço nem recebimento pela loja. Revisão visual em navegador não disponível no ambiente de criação.
+O fluxo foi verificado por testes da lógica, revisão estática e validação dos arquivos. A integração abre uma mensagem pronta; não valida estoque, preço nem recebimento pela loja. O carrinho foi também conferido na página pública, com inclusão, alteração de quantidades e prévia da mensagem. As fotografias são referências de produtos reais, sem garantir que esses modelos específicos estejam em estoque.
 
 ## Imagem de destaque
 

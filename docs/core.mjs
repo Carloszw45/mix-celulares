@@ -6,14 +6,14 @@ export const STORE = Object.freeze({
 });
 
 export const PRODUCTS = Object.freeze([
-  { id: 'celular', name: 'Smartphone', category: 'Celulares', label: 'Seu próximo upgrade', description: 'Consulte os aparelhos e modelos com a equipe.', image: 'smartphone.svg', tags: 'celular telefone smartphone android xiaomi iphone samsung' },
-  { id: 'capinha', name: 'Capinha para celular', category: 'Proteção', label: 'Do seu jeito', description: 'Informe seu modelo e escolha uma nova proteção.', image: 'case.svg', tags: 'capinha capa silicone transparente proteção protecao' },
-  { id: 'fone', name: 'Fone Bluetooth', category: 'Áudio', label: 'Conecte seu som', description: 'Consulte opções de fones sem fio para o dia a dia.', image: 'earbuds.svg', tags: 'fone fones bluetooth audio áudio sem fio' },
-  { id: 'carregador', name: 'Carregador', category: 'Energia', label: 'Energia para o dia', description: 'Encontre uma opção compatível com seu aparelho.', image: 'charger.svg', tags: 'carregador carga carregamento usb tomada energia' },
-  { id: 'pelicula', name: 'Película de proteção', category: 'Proteção', label: 'Cuide da sua tela', description: 'Consulte a película ideal para o seu celular.', image: 'glass.svg', tags: 'pelicula película vidro tela proteção protecao' },
-  { id: 'caixa-som', name: 'Caixa de som Bluetooth', category: 'Áudio', label: 'Som para acompanhar', description: 'Consulte os modelos de caixas de som da Mix.', image: 'speaker.svg', tags: 'caixa som bluetooth speaker audio áudio hmaston h maston' },
-  { id: 'cabo', name: 'Cabo para celular', category: 'Energia', label: 'A conexão que faltava', description: 'Diga qual entrada seu aparelho usa.', image: 'cable.svg', tags: 'cabo usb c lightning micro usb energia carregamento' },
-  { id: 'fone-cabo', name: 'Fone com fio', category: 'Áudio', label: 'Dê play no seu dia', description: 'Consulte as opções e a conexão compatível.', image: 'headphones.svg', tags: 'fone fones cabo fio musica áudio audio p2 usb' },
+  { id: 'celular', name: 'Smartphone', category: 'Celulares', label: 'Seu próximo upgrade', description: 'Consulte os aparelhos e modelos com a equipe.', image: 'smartphone-photo.webp', tags: 'celular telefone smartphone android xiaomi iphone samsung' },
+  { id: 'capinha', name: 'Capinha para celular', category: 'Proteção', label: 'Do seu jeito', description: 'Informe seu modelo e escolha uma nova proteção.', image: 'case-photo.webp', tags: 'capinha capa silicone transparente proteção protecao' },
+  { id: 'fone', name: 'Fone Bluetooth', category: 'Áudio', label: 'Conecte seu som', description: 'Consulte opções de fones sem fio para o dia a dia.', image: 'earbuds-photo.webp', tags: 'fone fones bluetooth audio áudio sem fio' },
+  { id: 'carregador', name: 'Carregador', category: 'Energia', label: 'Energia para o dia', description: 'Encontre uma opção compatível com seu aparelho.', image: 'charger-photo.webp', tags: 'carregador carga carregamento usb tomada energia' },
+  { id: 'pelicula', name: 'Película de proteção', category: 'Proteção', label: 'Cuide da sua tela', description: 'Consulte a película ideal para o seu celular.', image: 'glass-photo.webp', tags: 'pelicula película vidro tela proteção protecao' },
+  { id: 'caixa-som', name: 'Caixa de som Bluetooth', category: 'Áudio', label: 'Som para acompanhar', description: 'Consulte os modelos de caixas de som da Mix.', image: 'speaker-photo.webp', tags: 'caixa som bluetooth speaker audio áudio hmaston h maston' },
+  { id: 'cabo', name: 'Cabo para celular', category: 'Energia', label: 'A conexão que faltava', description: 'Diga qual entrada seu aparelho usa.', image: 'cable-photo.webp', tags: 'cabo usb c lightning micro usb energia carregamento' },
+  { id: 'fone-cabo', name: 'Fone com fio', category: 'Áudio', label: 'Dê play no seu dia', description: 'Consulte as opções e a conexão compatível.', image: 'headphones-photo.webp', tags: 'fone fones cabo fio musica áudio audio p2 usb' },
 ]);
 
 const ids = new Set(PRODUCTS.map(p => p.id));
