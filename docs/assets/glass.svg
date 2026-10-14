@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" width="400" height="340"><defs>
+<linearGradient id="dark" x1="0" x2="1" y2="1"><stop stop-color="#4b5450"/><stop offset=".4" stop-color="#252e2b"/><stop offset="1" stop-color="#101b16"/></linearGradient>
+<linearGradient id="edge" x1="0" x2="1" y2="0"><stop stop-color="#59675e"/><stop offset=".4" stop-color="#b0b7ac"/><stop offset=".7" stop-color="#38493e"/><stop offset="1" stop-color="#8c9c8a"/></linearGradient>
+<linearGradient id="white" x1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#f3f5ed"/><stop offset="1" stop-color="#c8cfbf"/></linearGradient>
+<linearGradient id="green" x1="0" x2="1" y2="1"><stop stop-color="#d6e6c4"/><stop offset=".45" stop-color="#8eab70"/><stop offset="1" stop-color="#4c6b43"/></linearGradient>
+<linearGradient id="screen" x1="0" x2="1" y2="1"><stop stop-color="#07271d"/><stop offset=".5" stop-color="#317b52"/><stop offset="1" stop-color="#c2f76b"/></linearGradient>
+<radialGradient id="lens"><stop stop-color="#234145"/><stop offset=".6" stop-color="#0b161a"/><stop offset="1" stop-color="#000"/></radialGradient>
+<filter id="shadow" x="-.4" y="-.4" width="1.8" height="1.9"><feGaussianBlur stdDeviation="8"/></filter>
+<pattern id="mesh" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#9caba3" opacity=".24"/></pattern>
+</defs>
+<ellipse cx="204" cy="291" rx="99" ry="12" fill="#526044" opacity=".18" filter="url(#shadow)"/>
+<g transform="rotate(10 239 174)"><rect x="185" y="54" width="110" height="236" rx="18" fill="url(#edge)"/><rect x="189" y="58" width="102" height="229" rx="15" fill="#172920"/><rect x="195" y="65" width="90" height="214" rx="10" fill="url(#screen)"/><path d="m195 75 90 132v72h-15L195 116Z" fill="#c3f690" opacity=".18"/><rect x="219" y="68" width="40" height="10" rx="5" fill="#11251b"/></g>
+<g transform="rotate(-14 153 164)"><rect x="96" y="43" width="113" height="236" rx="21" fill="#d7e1cb" opacity=".5" stroke="#a8b59d" stroke-width="2"/><rect x="102" y="49" width="101" height="224" rx="16" fill="#f6fff2" opacity=".22" stroke="#fff" stroke-width="1.5"/><path d="m103 72 100 132v53L103 124Z" fill="#fff" opacity=".25"/><path d="m110 68 88 117" stroke="#fff" stroke-width="2" opacity=".7"/><rect x="133" y="51" width="38" height="9" rx="4.5" fill="#e7eddf" stroke="#b8c5ac"/></g></svg>
